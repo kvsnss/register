@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form action="/ submit_registration" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><b>
+            <label for="email">Email:</label>
+            <input type="text" id="email" email="email" required><b>
+            <label for="password">Password:</label>
+            <input type="password" id="password" password="password" required><b>
+            <p>
+                By creating an account you agree to our <a href="#">Terms & Privacy</a>
+            </p>
+            <button type="submit">Register</button>
+        </form>
+  </body>
+</html>
